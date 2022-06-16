@@ -1,0 +1,42 @@
+const students = [
+    {
+        rollNum: 1,
+        name: 'Sam',
+        marks: {
+            maths: 10,
+            phy: 20,
+            chem: 21
+        }
+    },
+    {
+        rollNum: 2,
+        name: 'David',
+        marks: {
+            maths: 40,
+            phy: 10,
+            chem: 43
+        }
+    },
+    {
+        rollNum: 3,
+        name: 'Max',
+        marks: {
+            maths: 12,
+            phy: 80,
+            chem: 78
+        }
+    },
+    {
+        rollNum: 4,
+        name: 'Jimmy',
+        marks: {
+            maths: 90,
+            phy: 30,
+            chem: 87
+        }
+    }
+];
+
+1. Overall Topper
+2. Maths Topper
+3. Maths Average
