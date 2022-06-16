@@ -23,3 +23,7 @@ console.log(
     .filter((f) => f[0] === "m")
     .map((f) => f.at(0).toUpperCase() + f.slice(1))
 );
+
+let arr = [2, 3, 4, 9];
+console.log(arr.reduce((res, curr) => res + curr, 0));
+console.log(arr.slice(2).reduce((res, curr) => res + curr, 0));
